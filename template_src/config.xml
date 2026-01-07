@@ -14,6 +14,9 @@
         SSMG4
     </author>
 
+    <preference name="AndroidInAppBrowserThirdPartyCookiesEnabled" value="true" />
+    <preference name="AndroidWebViewAllowThirdPartyCookies" value="true" />
+
     <content src="index.html" />
 
     <allow-intent href="http://*/*" />
