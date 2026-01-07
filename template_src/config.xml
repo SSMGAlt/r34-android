@@ -7,6 +7,9 @@
     <description>
         This app brings Rule 34 to Android.
     </description>
+    <platform name="android">
+    <icon src="www/img/logo.png" />
+    </platform>
     <author email="ssmg4@proton.me" href="https://ssmg4.github.io">
         SSMG4
     </author>
