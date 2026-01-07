@@ -1,0 +1,22 @@
+github:
+  description: Rule 34 App
+  homepage: https://rule34.xxx/
+
+  labels:
+    - cordova
+    - html
+    - css
+    - mobile
+    - javascript
+    - nodejs
+    - hacktoberfest
+
+  features:
+    wiki: false
+    issues: true
+    projects: true
+
+  enabled_merge_buttons:
+    squash: true
+    merge: false
+    rebase: false
