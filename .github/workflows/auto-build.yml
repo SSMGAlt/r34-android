@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build:
-    name: Auto Build Source Code
+    name: Convert to Gradle + Build Android APK
     runs-on: ubuntu-latest
 
     steps:
@@ -27,17 +27,20 @@ jobs:
         run: npm install -g cordova
 
       - name: Install Dependencies
+        working-directory: template_src
         run: npm install
 
       - name: Add Android Platform
+        working-directory: template_src
         run: cordova platform add android
         continue-on-error: true
 
       - name: Build Android Release
+        working-directory: template_src
         run: cordova build android --release
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: android-apk
-          path: platforms/android/app/build/outputs/**/*.apk
+          path: template_src/platforms/android/app/build/outputs/**/*.apk
