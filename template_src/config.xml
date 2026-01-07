@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="xxx.rule34.android"
+    version="1.0.0">
+    <name>Rule 34</name>
+    <description>
+        This app brings Rule 34 to Android.
+    </description>
+    <author email="ssmg4@proton.me" href="https://ssmg4.github.io">
+        SSMG4
+    </author>
+
+    <content src="index.html" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

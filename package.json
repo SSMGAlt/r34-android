@@ -1,0 +1,14 @@
+{
+  "name": "rule-34-android",
+  "version": "1.0.0",
+  "description": "This app brings Rule 34 to Android.",
+  "repository": "github:ssmgalt/r34-android",
+  "bugs": "https://github.com/ssmgalt/r34-android/issues",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "SSMG4",
+  "license": "Apache-2.0"
+}
