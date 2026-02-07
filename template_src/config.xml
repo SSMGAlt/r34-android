@@ -8,17 +8,25 @@
         This app brings Rule 34 to Android.
     </description>
     <platform name="android">
-    <icon src="www/img/logo.png" />
+        <icon src="www/img/logo.png" />
     </platform>
     <author email="ssmg4@proton.me" href="https://ssmg4.github.io">
         SSMG4
     </author>
-
+    
     <preference name="AndroidInAppBrowserThirdPartyCookiesEnabled" value="true" />
     <preference name="AndroidWebViewAllowThirdPartyCookies" value="true" />
-
-    <content src="index.html" />
-
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    
+    <content src="www/index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="http://*/*" />
+    
+    <access origin="*" />
 </widget>
